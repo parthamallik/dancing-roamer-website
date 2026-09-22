@@ -11,10 +11,9 @@
       before React Router takes over — so deep links & refreshes work.
     -->
     <script type="text/javascript">
-      // TEMPORARY: 1 while deployed under the /dancing-roamer-website/
-      // subpath on github.io. Change back to 0 once served from the root
-      // of the dancingroamer.in custom domain (matches vite.config.js base).
-      var pathSegmentsToKeep = 1;
+      // 0 because the site is served from the dancingroamer.in custom
+      // domain root (matches vite.config.js base: "/").
+      var pathSegmentsToKeep = 0;
       var l = window.location;
       l.replace(
         l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "") +

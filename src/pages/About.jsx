@@ -61,7 +61,7 @@ export default function About() {
         <div className="container about-cta__inner">
           <h2>Sole proprietor. Every wedding, personally choreographed.</h2>
           <p>
-            Dancing Roamer is run end-to-end by {founder.name} — from the first phone call to the final
+            Dancing Roamer is run end-to-end by Smita — from the first phone call to the final
             rehearsal, you work directly with the person choreographing your celebration.
           </p>
           <Link to="/contact" className="btn btn--ghost">

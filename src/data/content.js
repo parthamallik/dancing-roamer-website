@@ -190,9 +190,9 @@ export const founder = {
   role: "Founder & Creative Head, Dancing Roamer",
   portrait: founderPortrait,
   bio: [
-    "Smitarani Swain is the heart behind Dancing Roamer — a self-made choreographer whose journey is rooted in passion, dedication and an unshakable love for dance. Hailing from Odisha, she is a National Level Folk Dancer who went on to expand into Bollywood and modern choreography.",
+    "Smita is the heart behind Dancing Roamer — a self-made choreographer whose journey is rooted in passion, dedication and an unshakable love for dance. Hailing from Odisha, she is a National Level Folk Dancer who went on to expand into Bollywood and modern choreography.",
     "Her vision was simple: build a platform where dance isn't just performance, but storytelling. In 2022, she founded Dancing Roamer and turned that vision into a full-fledged choreography practice, developing a signature Fusion Form that blends classical, folk and contemporary styles into choreography built specifically for each couple and family she works with.",
-    "From local stages to pan-India recognition, her work reached a proud milestone with the Odisha Achiever Award for Best Women Choreographer Team. Today, as a sole proprietor running Dancing Roamer end-to-end, Smitarani continues to choreograph luxury weddings across India personally — proving that with passion and purpose, dreams do dance their way to success.",
+    "From local stages to pan-India recognition, her work reached a proud milestone with the Odisha Achiever Award for Best Women Choreographer Team. Today, as a sole proprietor running Dancing Roamer end-to-end, Smita continues to choreograph luxury weddings across India personally — proving that with passion and purpose, dreams do dance their way to success.",
   ],
   highlights: [
     "National Level Folk Dancer, Odisha",
