@@ -16,7 +16,7 @@ import galleryDisco from "../assets/images/gallery-disco-dance.jpg";
 import servicesTroupeGold from "../assets/images/services-troupe-gold.jpg";
 import founderPortrait from "../assets/images/founder-smitarani.jpg";
 
-import achOdishaTrophy from "../assets/images/ach-odisha-award-trophy.jpg";
+import achOdishaTrophy from "../assets/images/ach-odisha-award-group.jpg";
 import achDandiyaOrganizer from "../assets/images/ach-dandiya-best-organizer.jpg";
 import achRangiloRaas from "../assets/images/ach-rangilo-raas.jpg";
 import achBaliyatra from "../assets/images/ach-baliyatra.jpg";
@@ -26,6 +26,7 @@ import portfolioMadadCharity from "../assets/images/portfolio-madad-charity.jpg"
 import portfolioRangiloDecor from "../assets/images/portfolio-rangilo-decor.jpg";
 import portfolioRangiloDandiya from "../assets/images/portfolio-rangilo-dandiya.jpg";
 import portfolioTimeToShine from "../assets/images/portfolio-timetoshine-salaam.jpg";
+import portfolioGrandEntryPerformer from "../assets/images/portfolio-grand-entry-performer.jpg";
 
 import tEliseRohit from "../assets/images/t-elise-rohit.jpg";
 import tShrutiGaurav from "../assets/images/t-shruti-gaurav.jpg";
@@ -55,7 +56,7 @@ export const site = {
   email: "dancingroamer03@gmail.com",
   instagram: "https://instagram.com/dancing_roamer",
   instagramHandle: "@dancing_roamer",
-  facebook: "https://facebook.com/dancingroamer",
+  facebook: "https://www.facebook.com/choreography.by.dancing.roamer",
   founded: 2022,
 };
 
@@ -85,7 +86,7 @@ export const heroSlides = [
     image: heroCoupleStage,
     eyebrow: "Signature Fusion Form",
     heading: "Two families, one rhythm",
-    body: "Odissi grace, Bollywood energy and folk beats woven into choreography built around your story, not a template.",
+    body: "Classical grace, Bollywood energy and folk beats woven into choreography built around your story, not a template.",
   },
   {
     image: heroGroomsmenGarland,
@@ -165,7 +166,7 @@ export const services = [
     title: "Dance Training & Workshops",
     tagline: "For couples, groups & corporates",
     summary:
-      "Beyond weddings, Dancing Roamer runs offline studio classes, live online sessions and city workshops in Odissi, Sambalpuri, Garba, Bollywood, Punjabi and more — plus corporate dance programs for team events.",
+      "Beyond weddings, Dancing Roamer runs offline studio classes, live online sessions and city workshops in Sambalpuri, Garba, Bollywood, Punjabi and more — plus corporate dance programs for team events.",
     points: [
       "Offline studio & on-site training",
       "Live online sessions with recorded lessons",
@@ -177,7 +178,6 @@ export const services = [
 ];
 
 export const danceStyles = [
-  { name: "Odissi", description: "A graceful classical dance with sculpturesque poses and fluid movements." },
   { name: "Sambalpuri", description: "A high-energy folk dance showcasing vibrant costumes and rhythmic beats." },
   { name: "Garba", description: "Garba unites tradition and rhythm in a mesmerising dance form." },
   { name: "Punjabi", description: "An energetic expression of festivity that lights up every occasion." },
@@ -231,6 +231,30 @@ export const achievements = [
 // event or body of work, with a short write-up.
 export const portfolio = [
   {
+    slug: "grand-entry",
+    title: "Grand Entry",
+    tag: "Service",
+    description:
+      "Personalised and grande wedding entries, timed to the second and rehearsed until they look effortless. From flower-garland walks with the groom's party to full costumed surprise performances, we build the entry around your story.",
+    images: [portfolioGrandEntryPerformer, galleryBaraat, heroGroomsmenGarland],
+  },
+  {
+    slug: "family-choreography",
+    title: "Family Choreography",
+    tag: "Service",
+    description:
+      "From the bride's college friends to grandparents who've never danced on a stage before — routines built around each family group's comfort level, so every generation gets a moment on stage.",
+    images: [servicesTroupeGold, galleryBridesmaids, gallerySelfie],
+  },
+  {
+    slug: "luxury-wedding-sangeets",
+    title: "Luxury Wedding Sangeets & Receptions",
+    tag: "Service",
+    description:
+      "Sangeet nights and reception couple dances choreographed for luxury weddings across India — the core of Dancing Roamer's work, built around your songs and your stage.",
+    images: [heroGrandStage, galleryDuoStage, galleryBallroom],
+  },
+  {
     slug: "rangilo-raas-2024",
     title: "Rangilo Raas 2024",
     tag: "Flagship Event",
@@ -245,14 +269,6 @@ export const portfolio = [
     description:
       "A four-day Dandiya carnival that drew crowds across Bhubaneswar, recognised with the Best Organizer award — press meets, stage performances and city-wide buzz, all run by Dancing Roamer.",
     images: [portfolioDandiyaPressmeet, achDandiyaOrganizer],
-  },
-  {
-    slug: "luxury-wedding-sangeets",
-    title: "Luxury Wedding Sangeets & Receptions",
-    tag: "Weddings",
-    description:
-      "The core of Dancing Roamer's work — sangeet nights, reception dances and grand entries choreographed for luxury weddings across India.",
-    images: [heroGrandStage, galleryDuoStage, heroGroomsmenGarland, galleryBallroom],
   },
   {
     slug: "community-collaborations",

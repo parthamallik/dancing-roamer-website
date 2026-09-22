@@ -75,7 +75,7 @@ export default function Home() {
               <strong>{founder.name}</strong> — a National Level Folk Dancer who set out to make dance a
               central, storytelling part of every celebration she touches. Today, Smitarani personally
               choreographs sangeet nights, receptions and family performances for luxury weddings, blending
-              Odissi, Bollywood, folk and contemporary styles into her signature{" "}
+              Bollywood, folk and contemporary styles into her signature{" "}
               <strong>Fusion Form</strong>.
             </p>
             <Link to="/about" className="btn btn--ghost">
