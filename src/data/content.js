@@ -199,7 +199,7 @@ export const founder = {
     "Founder & solo proprietor, Dancing Roamer (est. 2022)",
     "Odisha Achiever Award — Best Women Choreographer Team, 2023",
     "Creator of Dancing Roamer's signature \"Fusion Form\" choreography style",
-    "Produced Odisha's Dandiya Carnival 2023 (Best Organizer) and returned as a supporting partner in 2025",
+    "Associated with Odisha's Dandiya Carnival — Best Organizer award in 2023, supporting partner in 2025",
   ],
 };
 
@@ -211,7 +211,7 @@ export const achievements = [
   },
   {
     title: "Dandiya Carnival 2023",
-    detail: "Best Organizer — one of Odisha's biggest Dandiya celebrations, produced end-to-end by Dancing Roamer.",
+    detail: "Best Organizer award — Dancing Roamer was closely associated with one of Odisha's biggest Dandiya celebrations.",
     image: achDandiyaOrganizer,
   },
   {
