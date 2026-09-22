@@ -18,15 +18,13 @@ import founderPortrait from "../assets/images/founder-smitarani.jpg";
 
 import achOdishaTrophy from "../assets/images/ach-odisha-award-group.jpg";
 import achDandiyaOrganizer from "../assets/images/ach-dandiya-best-organizer.jpg";
-import achRangiloRaas from "../assets/images/ach-rangilo-raas.jpg";
 import achBaliyatra from "../assets/images/ach-baliyatra.jpg";
 
-import portfolioDandiyaPressmeet from "../assets/images/portfolio-dandiya-pressmeet.jpg";
 import portfolioMadadCharity from "../assets/images/portfolio-madad-charity.jpg";
-import portfolioRangiloDecor from "../assets/images/portfolio-rangilo-decor.jpg";
-import portfolioRangiloDandiya from "../assets/images/portfolio-rangilo-dandiya.jpg";
 import portfolioTimeToShine from "../assets/images/portfolio-timetoshine-salaam.jpg";
 import portfolioGrandEntryPerformer from "../assets/images/portfolio-grand-entry-performer.jpg";
+import portfolioDandiya2025Group from "../assets/images/portfolio-dandiya-2025-group.jpg";
+import portfolioDandiya2025Meet from "../assets/images/portfolio-dandiya-2025-influencer-meet.jpg";
 
 import tEliseRohit from "../assets/images/t-elise-rohit.jpg";
 import tShrutiGaurav from "../assets/images/t-shruti-gaurav.jpg";
@@ -37,6 +35,8 @@ import tManishaNitin from "../assets/images/t-manisha-nitin.jpg";
 import tShreyaSabya from "../assets/images/t-shreya-sabya.jpg";
 import tSambhavSrishti from "../assets/images/t-sambhav-srishti.jpg";
 import tNishitaPruthiv from "../assets/images/t-nishita-pruthiv.jpg";
+import tLeharAshvin from "../assets/images/t-lehar-ashvin.jpg";
+import tHardhikAlina from "../assets/images/t-hardhik-alina.jpg";
 
 import galleryGroomsmenTrio from "../assets/images/gallery-groomsmen-trio.jpg";
 import galleryCouplePurpleDance from "../assets/images/gallery-couple-purple-dance.jpg";
@@ -100,7 +100,7 @@ export const stats = [
   { value: "2022", label: "Founded in Odisha" },
   { value: "Odisha Achiever Award", label: "Best Women Choreographer Team, 2023" },
   { value: "Fusion Form", label: "Smitarani's signature choreography style" },
-  { value: "2", label: "Flagship festivals produced — Rangilo Raas & Dandiya Carnival" },
+  { value: "Dandiya Carnival", label: "Flagship festival — Best Organizer 2023, supporting partner 2025" },
 ];
 
 export const services = [
@@ -199,7 +199,7 @@ export const founder = {
     "Founder & solo proprietor, Dancing Roamer (est. 2022)",
     "Odisha Achiever Award — Best Women Choreographer Team, 2023",
     "Creator of Dancing Roamer's signature \"Fusion Form\" choreography style",
-    "Produced Odisha's Rangilo Raas 2024 and Dandiya Carnival 2023 (Best Organizer)",
+    "Produced Odisha's Dandiya Carnival 2023 (Best Organizer) and returned as a supporting partner in 2025",
   ],
 };
 
@@ -215,13 +215,13 @@ export const achievements = [
     image: achDandiyaOrganizer,
   },
   {
-    title: "Rangilo Raas 2024",
-    detail: "Odisha's biggest Garba event, from stage design to choreography, curated by the Dancing Roamer team.",
-    image: achRangiloRaas,
+    title: "Time to Shine — Salaam",
+    detail: "Performed at and collaborated with Time to Shine's Salaam event, bringing choreography to a wider community stage.",
+    image: portfolioTimeToShine,
   },
   {
-    title: "Community & charity events",
-    detail: "Performances and collaborations with Time to Shine, Madad Charity, and Asia's largest trade fair, Baliyatra.",
+    title: "Asia's Largest Trade Fair — Baliyatra",
+    detail: "Dancing Roamer performed at Baliyatra, Asia's largest trade fair, held annually in Odisha.",
     image: achBaliyatra,
   },
 ];
@@ -255,20 +255,12 @@ export const portfolio = [
     images: [heroGrandStage, galleryDuoStage, galleryBallroom],
   },
   {
-    slug: "rangilo-raas-2024",
-    title: "Rangilo Raas 2024",
+    slug: "dandiya-carnival-2025",
+    title: "Dandiya Carnival 2025",
     tag: "Flagship Event",
     description:
-      "Odisha's biggest Garba event, produced end-to-end by Dancing Roamer — from the lantern-lined entrance and stage decor to the choreography that kept the floor full all night.",
-    images: [achRangiloRaas, portfolioRangiloDecor, portfolioRangiloDandiya],
-  },
-  {
-    slug: "dandiya-carnival-2023",
-    title: "Dandiya Carnival 2023",
-    tag: "Flagship Event — Best Organizer",
-    description:
-      "A four-day Dandiya carnival that drew crowds across Bhubaneswar, recognised with the Best Organizer award — press meets, stage performances and city-wide buzz, all run by Dancing Roamer.",
-    images: [portfolioDandiyaPressmeet, achDandiyaOrganizer],
+      "Dancing Roamer returned as a supporting partner for Dandiya Carnival 2025 — associated with the influencer meet and press events, and the stage performances that followed.",
+    images: [portfolioDandiya2025Group, portfolioDandiya2025Meet],
   },
   {
     slug: "community-collaborations",
@@ -334,6 +326,18 @@ export const testimonials = [
     photo: tNishitaPruthiv,
     quote:
       "You guys are amazing. Thank you from the bottom of our hearts for making our Sangeet Night so special — your choreography, coordination, execution and management is appreciable. We will definitely recommend you to family and friends.",
+  },
+  {
+    names: "Lehar & Ashvin",
+    photo: tLeharAshvin,
+    quote:
+      "A huge thank you to Smita and the Dancing Roamers team for being a part of our wedding journey. From choreographing all our family performances to planning the bride and groom's entries, Smita brought every vision to life beautifully. She also went the extra mile by creating BTS reels for us, and those videos have become some of our favourite memories. Wedding preparations can get hectic, and while there were moments where the constant BTS shooting felt a bit overwhelming, we now realise it was all for capturing memories we'll cherish forever. The final videos and the overall execution made it worth it. Thank you for your creativity, dedication, and hard work in making our celebrations so memorable. Wishing you and the Dancing Roamers team all the very best for many more beautiful weddings ahead!",
+  },
+  {
+    names: "Hardhik & Alina",
+    photo: tHardhikAlina,
+    quote:
+      "Thank you so much for your amazing choreography and for capturing the BTS moments. Your creativity, energy, and support made this project truly special. I'm really grateful for everything you brought to it.",
   },
 ];
 
