@@ -4,7 +4,7 @@ import "./CtaBand.css";
 
 export default function CtaBand({
   title = "Let's choreograph your celebration",
-  body = "Tell us your date, your venue and your songs — Smitarani will take it from there.",
+  body = "Tell us your date, your venue and your songs — Smita will take it from there.",
 }) {
   return (
     <section className="section section--dark cta-band">

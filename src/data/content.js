@@ -48,7 +48,7 @@ import galleryFriendsCheer4 from "../assets/images/gallery-friends-cheer-4.jpg";
 export const site = {
   name: "Dancing Roamer",
   tagline: "Roam World on Dance Beats",
-  founderName: "Smitarani Swain",
+  founderName: "Smita",
   city: "Bhubaneswar, Odisha",
   phone: "+91 98610 01708",
   phoneHref: "tel:+919861001708",
@@ -80,7 +80,7 @@ export const heroSlides = [
     image: heroGrandStage,
     eyebrow: "Luxury Wedding Choreography",
     heading: "Every step, staged for forever",
-    body: "Dancing Roamer designs sangeet and reception choreography for luxury Indian weddings — led personally by Smitarani Swain, from the first rehearsal to the final bow.",
+    body: "Dancing Roamer designs sangeet and reception choreography for luxury Indian weddings — led personally by Smita, from the first rehearsal to the final bow.",
   },
   {
     image: heroCoupleStage,
@@ -99,7 +99,7 @@ export const heroSlides = [
 export const stats = [
   { value: "2022", label: "Founded in Odisha" },
   { value: "Odisha Achiever Award", label: "Best Women Choreographer Team, 2023" },
-  { value: "Fusion Form", label: "Smitarani's signature choreography style" },
+  { value: "Fusion Form", label: "Smita's signature choreography style" },
   { value: "Dandiya Carnival", label: "Flagship festival — Best Organizer 2023, supporting partner 2025" },
 ];
 
@@ -152,7 +152,7 @@ export const services = [
     title: "Family & Group Performances",
     tagline: "Everyone gets a moment on stage",
     summary:
-      "From the bride's college friends to grandparents who've never danced on a stage before — Smitarani builds routines around each group's comfort level, so every performance lands.",
+      "From the bride's college friends to grandparents who've never danced on a stage before — Smita builds routines around each group's comfort level, so every performance lands.",
     points: [
       "Family performances across generations",
       "Friend-group & bridal squad choreography",
@@ -182,7 +182,7 @@ export const danceStyles = [
   { name: "Garba", description: "Garba unites tradition and rhythm in a mesmerising dance form." },
   { name: "Punjabi", description: "An energetic expression of festivity that lights up every occasion." },
   { name: "Bollywood", description: "A fusion of multiple dance styles, widely used in Indian cinema and entertainment." },
-  { name: "Fusion Form", description: "Smitarani's signature blend — multiple styles woven into one original choreography." },
+  { name: "Fusion Form", description: "Smita's signature blend — multiple styles woven into one original choreography." },
 ];
 
 export const founder = {

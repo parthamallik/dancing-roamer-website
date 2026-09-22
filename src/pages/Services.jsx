@@ -62,7 +62,7 @@ export default function Services() {
               <span className="process-list__num">04</span>
               <div>
                 <h3>Performance day</h3>
-                <p>Smitarani and team on-site to cue the performance — and, if booked, film the BTS story.</p>
+                <p>Smita and team on-site to cue the performance — and, if booked, film the BTS story.</p>
               </div>
             </li>
           </ol>

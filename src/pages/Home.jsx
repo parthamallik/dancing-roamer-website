@@ -11,7 +11,6 @@ import {
   danceStyles,
   testimonials,
   portfolio,
-  founder,
   site,
 } from "../data/content.js";
 import "./Home.css";
@@ -72,8 +71,8 @@ export default function Home() {
             <h2>A premier choreography studio, built around one dancer&rsquo;s vision</h2>
             <p>
               Dancing Roamer is a choreography studio founded in Odisha in 2022 by{" "}
-              <strong>{founder.name}</strong> — a National Level Folk Dancer who set out to make dance a
-              central, storytelling part of every celebration she touches. Today, Smitarani personally
+              <strong>Smita</strong> — a National Level Folk Dancer who set out to make dance a
+              central, storytelling part of every celebration she touches. Today, Smita personally
               choreographs sangeet nights, receptions and family performances for luxury weddings, blending
               Bollywood, folk and contemporary styles into her signature{" "}
               <strong>Fusion Form</strong>.
@@ -172,7 +171,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Signature Fusion Form"
             title="Styles we choreograph with"
-            description="Smitarani blends these into original routines built for your songs, your families and your stage."
+            description="Smita blends these into original routines built for your songs, your families and your stage."
           />
           <div className="style-grid">
             {danceStyles.map((style) => (
