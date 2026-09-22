@@ -1,0 +1,11 @@
+.cta-band__inner {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.cta-band__inner p {
+  color: var(--color-text-on-dark-muted);
+  margin-bottom: 30px;
+  font-size: 1.05rem;
+}

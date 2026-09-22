@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7A4B34" />
+
+    <title>Dancing Roamer | Luxury Wedding Choreography by Smitarani Swain</title>
+    <meta
+      name="description"
+      content="Dancing Roamer is a luxury wedding choreography studio founded by Smitarani Swain in Odisha — sangeet & reception choreography, behind-the-scenes films, flashmobs, grande entries and family performances for weddings across India."
+    />
+    <meta name="keywords" content="wedding choreographer, sangeet choreography, luxury wedding dance, Dancing Roamer, Smitarani Swain, Odisha choreographer, behind the scenes wedding films" />
+    <link rel="canonical" href="https://dancingroamer.in/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dancing Roamer" />
+    <meta property="og:title" content="Dancing Roamer | Luxury Wedding Choreography" />
+    <meta
+      property="og:description"
+      content="Sangeet, reception & wedding choreography for luxury weddings — personally led by founder Smitarani Swain."
+    />
+    <meta property="og:url" content="https://dancingroamer.in/" />
+    <meta property="og:image" content="/apple-touch-icon.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Quicksand:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Decodes the redirect from 404.html back into a real path before
+         React Router mounts. See public/404.html for the other half. -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

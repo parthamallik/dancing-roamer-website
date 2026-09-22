@@ -1,0 +1,43 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo__mark {
+  width: auto;
+  flex-shrink: 0;
+  display: block;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.28rem;
+  letter-spacing: 0.02em;
+  color: var(--color-primary-dark);
+}
+
+.logo--dark .logo__name {
+  color: var(--color-white);
+}
+
+.logo__tagline {
+  font-family: var(--font-accent);
+  font-weight: 600;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+.logo--dark .logo__tagline {
+  color: var(--color-text-on-dark-muted);
+}
